@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  smmgano-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smmgano_platform
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - MOBILE_WALLET_DESTINATION=01033537322
+      - EXCHANGE_RATE_USD_TO_EGP=50.0
+    volumes:
+      - ./data:/app/data

@@ -1,0 +1,6 @@
+{
+  "name": "SMMGANO - Premium Social Media Marketing Platform",
+  "description": "SMMGANO — Grow Your Social Presence. All-in-one social media marketing platform with dual EGP & USD settlement, instant automated order delivery, and direct Egyptian mobile wallet (Vodafone Cash & InstaPay) integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

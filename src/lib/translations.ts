@@ -1,0 +1,232 @@
+import { Language } from '../types.js';
+
+export const translations = {
+  en: {
+    siteName: 'SMMGANO',
+    tagline: 'Grow Your Social Presence',
+    heroTitle: 'SMMGANO — Grow Your Social Presence.',
+    heroSubtitle: 'Your all-in-one social media marketing platform for managing engagement services, tracking orders, and accessing powerful tools through one seamless dashboard.',
+    getStarted: 'Get Started',
+    exploreServices: 'Explore Services',
+    demoAdmin: 'Admin Demo Login',
+    demoClient: 'Client Demo Login',
+    login: 'Log In',
+    register: 'Create Account',
+    logout: 'Sign Out',
+    dashboard: 'Dashboard',
+    newOrder: 'New Order',
+    orders: 'Orders',
+    services: 'Services',
+    addFunds: 'Add Funds',
+    tickets: 'Support Tickets',
+    apiDocs: 'API Integration',
+    adminPanel: 'Admin Console',
+    currency: 'Currency',
+    language: 'Language',
+    lightMode: 'Light Mode',
+    darkMode: 'Dark Mode',
+
+    // Stats
+    totalBalance: 'Available Balance',
+    totalSpent: 'Total Spent',
+    totalOrders: 'Total Orders',
+    activeOrders: 'In Progress',
+    completedOrders: 'Completed',
+    pendingVerification: 'Pending Verification',
+
+    // New order
+    platform: 'Platform',
+    category: 'Category',
+    service: 'Service',
+    link: 'Target Link / URL',
+    quantity: 'Quantity',
+    minQuantity: 'Min',
+    maxQuantity: 'Max',
+    ratePer1000: 'Rate per 1,000',
+    totalCost: 'Total Charge',
+    placeOrder: 'Confirm & Place Order',
+    orderProcessing: 'Processing Order...',
+    orderSuccess: 'Order placed successfully! Tracking ID:',
+    insufficientFunds: 'Insufficient wallet balance. Please add funds.',
+    averageSpeed: 'Average Delivery Speed',
+    guarantee: 'Guarantee',
+
+    // Wallet
+    walletSubtitle: 'Deposit funds instantly via Egyptian mobile wallets or international payment methods',
+    egyptianMobileWallet: 'Egyptian Mobile Wallet (Vodafone Cash / InstaPay)',
+    transferDestination: 'Transfer Destination Phone Number',
+    accountHolder: 'Account / Wallet Name',
+    step1: 'Step 1: Open your Vodafone Cash, InstaPay, Orange Money, or Etisalat Cash app.',
+    step2: 'Step 2: Transfer the exact amount to the verified number above.',
+    step3: 'Step 3: Enter your sender phone number and the transaction confirmation ID below.',
+    senderPhone: 'Sender Phone Number',
+    transactionRef: 'Transaction Reference / SMS Code',
+    depositAmount: 'Deposit Amount',
+    submitDeposit: 'Submit Deposit for Verification',
+    depositPendingNotice: 'Your transfer has been submitted to accounting. Verification typically takes 2-15 minutes.',
+    recentDeposits: 'Recent Deposit History',
+    status: 'Status',
+    date: 'Date',
+    amount: 'Amount',
+    method: 'Method',
+    reference: 'Reference',
+
+    // Services Catalog
+    allPlatforms: 'All Platforms',
+    searchServices: 'Search by service name, platform, or features...',
+    rateUsd: 'Rate (USD)',
+    rateEgp: 'Rate (EGP)',
+    action: 'Action',
+    orderNow: 'Order Now',
+
+    // Order tracking
+    orderId: 'Order ID',
+    serviceName: 'Service Name',
+    charge: 'Charge',
+    progress: 'Progress',
+    startCount: 'Start Count',
+    remains: 'Remains',
+    noOrdersFound: 'No orders placed yet. Choose a service to get started!',
+
+    // Support
+    openNewTicket: 'Open New Support Ticket',
+    subject: 'Subject',
+    relatedOrder: 'Related Order ID (Optional)',
+    priority: 'Priority',
+    message: 'Message',
+    sendTicket: 'Send Ticket',
+    ticketHistory: 'Ticket History',
+
+    // Admin
+    adminTitle: 'SMMGANO Executive Control Center',
+    totalRevenueEgp: 'Total EGP Revenue',
+    totalRevenueUsd: 'Total USD Revenue',
+    pendingDeposits: 'Pending Deposits',
+    registeredUsers: 'Registered Users',
+    approve: 'Approve & Credit',
+    reject: 'Reject',
+    exchangeRateSettings: 'Exchange Rate & Mobile Wallet Settings',
+    usdToEgpRate: 'USD to EGP Rate (1 USD = ? EGP)',
+    updateSettings: 'Save Settings',
+    orderStatusUpdate: 'Update Status',
+
+    // Footer
+    copyright: '© 2026 SMMGANO. All rights reserved. High performance social marketing engine.'
+  },
+  ar: {
+    siteName: 'SMMGANO',
+    tagline: 'نمِّ تواجدك الرقمي على مواقع التواصل',
+    heroTitle: 'SMMGANO — نمِّ تواجدك الرقمي على مواقع التواصل.',
+    heroSubtitle: 'منصتك الشاملة لخدمات التسويق الرقمي وإدارة التفاعل، وتتبع الطلبات، والوصول لأقوى الأدوات من لوحة تحكم واحدة وسلسة.',
+    getStarted: 'ابدأ الآن',
+    exploreServices: 'استكشف الخدمات',
+    demoAdmin: 'دخول تجريبي (إدارة)',
+    demoClient: 'دخول تجريبي (عميل)',
+    login: 'تسجيل الدخول',
+    register: 'إنشاء حساب جديد',
+    logout: 'تسجيل الخروج',
+    dashboard: 'لوحة التحكم',
+    newOrder: 'طلب جديد',
+    orders: 'سجل الطلبات',
+    services: 'قائمة الخدمات',
+    addFunds: 'شحن الرصيد',
+    tickets: 'الدعم الفني',
+    apiDocs: 'ربط الـ API',
+    adminPanel: 'لوحة الإدارة',
+    currency: 'العملة',
+    language: 'اللغة',
+    lightMode: 'الوضع الفاتح',
+    darkMode: 'الوضع الليلي',
+
+    // Stats
+    totalBalance: 'الرصيد المتاح',
+    totalSpent: 'إجمالي الإنفاق',
+    totalOrders: 'إجمالي الطلبات',
+    activeOrders: 'قيد التنفيذ',
+    completedOrders: 'مكتملة',
+    pendingVerification: 'بانتظار التأكيد',
+
+    // New order
+    platform: 'المنصة',
+    category: 'القسم',
+    service: 'الخدمة المطلوبة',
+    link: 'الرابط المستهدف',
+    quantity: 'الكمية',
+    minQuantity: 'الحد الأدنى',
+    maxQuantity: 'الحد الأقصى',
+    ratePer1000: 'السعر لكل 1000',
+    totalCost: 'التكلفة الإجمالية',
+    placeOrder: 'تأكيد وإرسال الطلب',
+    orderProcessing: 'جاري معالجة الطلب...',
+    orderSuccess: 'تم إنشاء الطلب بنجاح! رقم الطلب:',
+    insufficientFunds: 'رصيدك الحالي غير كافٍ. يرجى شحن المحفظة للمتابعة.',
+    averageSpeed: 'متوسط سرعة التنفيذ',
+    guarantee: 'الضمان',
+
+    // Wallet
+    walletSubtitle: 'شحن رصيدك بكل سهولة عبر محافظ الهواتف المصرية (فودافون كاش / انستاباي) والبطاقات البنكية',
+    egyptianMobileWallet: 'محافظ كاش المصرية (فودافون كاش / انستاباي)',
+    transferDestination: 'رقم التحويل المعتمد',
+    accountHolder: 'اسم الحساب / المحفظة',
+    step1: 'الخطوة 1: افتح تطبيق فودافون كاش أو انستاباي أو المحفظة الإلكترونية الخاصة بك.',
+    step2: 'الخطوة 2: قم بتحويل المبلغ المطلوب بالجنيه المصري إلى الرقم المعتمد أعلاه.',
+    step3: 'الخطوة 3: أدخل رقم هاتفك المحول منه ورقم العملية (كود التحويل) بالأسفل.',
+    senderPhone: 'رقم هاتفك المحول منه',
+    transactionRef: 'رقم العملية / كود التحويل',
+    depositAmount: 'مبلغ الشحن',
+    submitDeposit: 'إرسال طلب التأكيد',
+    depositPendingNotice: 'تم إرسال طلب الشحن بنجاح وهو قيد المراجعة الفورية من قسم الحسابات.',
+    recentDeposits: 'سجل عمليات الشحن',
+    status: 'الحالة',
+    date: 'التاريخ',
+    amount: 'المبلغ',
+    method: 'وسيلة الدفع',
+    reference: 'رقم الإشعار',
+
+    // Services Catalog
+    allPlatforms: 'جميع المنصات',
+    searchServices: 'ابحث باسم الخدمة أو المنصة أو المواصفات...',
+    rateUsd: 'السعر (دولار)',
+    rateEgp: 'السعر (جنيه)',
+    action: 'إجراء',
+    orderNow: 'اطلب الآن',
+
+    // Order tracking
+    orderId: 'رقم الطلب',
+    serviceName: 'اسم الخدمة',
+    charge: 'المبلغ المخصوم',
+    progress: 'نسبة الإنجاز',
+    startCount: 'العدد الأولي',
+    remains: 'المتبقي',
+    noOrdersFound: 'لا توجد طلبات سابقة حتى الآن. اختر خدمة وأنشئ طلبك الأول!',
+
+    // Support
+    openNewTicket: 'فتح تذكرة دعم فني جديدة',
+    subject: 'الموضوع',
+    relatedOrder: 'رقم الطلب المتعلق (اختياري)',
+    priority: 'الأولوية',
+    message: 'تفاصيل الاستفسار',
+    sendTicket: 'إرسال التذكرة',
+    ticketHistory: 'سجل التذاكر السابقة',
+
+    // Admin
+    adminTitle: 'لوحة التحكم الإدارية العليا - SMMGANO Admin',
+    totalRevenueEgp: 'إجمالي إيداعات الجنيه',
+    totalRevenueUsd: 'إجمالي إيداعات الدولار',
+    pendingDeposits: 'إيداعات بانتظار الاعتماد',
+    registeredUsers: 'المستخدمين المسجلين',
+    approve: 'موافقة وإضافة للرصيد',
+    reject: 'رفض',
+    exchangeRateSettings: 'إعدادات سعر الصرف ومحافظ كاش',
+    usdToEgpRate: 'سعر صرف الدولار بالجنيه (1 دولار = ؟ جنيه)',
+    updateSettings: 'حفظ التعديلات',
+    orderStatusUpdate: 'تحديث حالة الطلب',
+
+    // Footer
+    copyright: '© 2026 SMMGANO. جميع الحقوق محفوظة. المنصة الاحترافية للنمو الرقمي.'
+  }
+};
+
+export function useTranslation(lang: Language) {
+  return translations[lang] || translations.en;
+}
